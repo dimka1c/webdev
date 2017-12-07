@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fbf7f7;;
+}
+.progress {
+    margin: 20px 0 0 0;
+    display: none;
+}
+form {
+    border: 1px solid;
+    border-color: #efefef;;
+    background-color: #fbfbfb;;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: inset 0px 0px 10px 0px #b7b7b7;
+    margin: 10px 0 10px 0px;
+    padding: 20px 0 10px 0;
+}
+form input {
+    margin: 20px 0 0 0;
+    width: 300px;
+    font-size: 13px;
+    padding: 6px 0 5px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+form button[type=submit] {
+    margin: 20px 0 0 0;
+    background-color: #f7f7f7;
+}
+.preview {
+    border: 1px solid #ccc;
+    display: none;
+}
+.error {
+    color: red;
+}
+.preview img {
+    max-width:100%;
+    height:auto;
+    position: relative;
+}
+.load-progress img {
+    display: none;
+    top: 35%;
+    left: 12%;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    z-index: 10;
+    width: 30%;
+}
+.content {
+    width: 1200px;
+    max-width: 100%;
+    margin: 33% auto;
+
+}
+.content .drop-img {
+    display: block;
+    float: left;
+    width: 18%;
+    margin-right: 2.5%;
+    box-shadow: 15px 15px 25px rgba(0,0,0,0.6);
+}
+.content .drop-img:last-child {
+    margin-right: 0;
+}
+.img1 {
+    transform: translateY(-50%)
+}
+.img2 {
+    transform: translateY(35%)
+}
+.img4 {
+    transform: translateY(35%)
+}
+.img5 {
+    transform: translateY(100%)
+}

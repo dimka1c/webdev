@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #eeeeee;
+}
+.content {
+    width: 1200px;
+    max-width: 100%;
+    margin: 50px auto;
+    
+}
+.content .drop-img {
+    display: block;
+    float: left;
+    width: 18%;
+    margin-right: 2.5%;
+    box-shadow: 15px 15px 25px rgba(0,0,0,0.6);
+}
+.content .drop-img:last-child {
+    margin-right: 0;
+}
+.img1 {
+    transform: translateY(100%)
+}
+.img2 {
+    transform: translateY(35%)
+}
+.img4 {
+    transform: translateY(35%)
+}
+.img5 {
+    transform: translateY(100%)
+}
